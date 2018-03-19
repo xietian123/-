@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="zg" class="shuo.ren">
+		<property name="name" value="张嘎"></property>
+		<property name="say" value="今天天气真好雅！"></property>
+	</bean>
+	<bean id="ww" class="shuo.ren">
+		<property name="name" value="王五"></property>
+		<property name="say" value="三天不打，上房揭瓦！"></property>
+	</bean>
+
+</beans>
